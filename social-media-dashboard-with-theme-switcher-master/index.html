@@ -39,7 +39,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="">
     <main class="container my-4">
       <!-- header -->
       <div class="d-flex justify-content-between align-items-center mb-5 header">
@@ -47,17 +47,20 @@
           <h1 class="mb-0">Social Media Dashboard</h1>
           <p>Total Followers: 23,004</p>
         </div>
-        <div class="form-check form-switch">
-          <label class="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
-          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <div class="">
+          <label class="toggle">
+            <span class="toggle-label">Dark Mode</span>
+            <input class="toggle-checkbox" type="checkbox">
+            <div class="toggle-switch"></div>
+          </label>
         </div>
       </div>
       <!-- end header -->
-      <!-- bigger card list -->
       <div>
-        <ul class="d-flex flex-wrap text-center justify-content-between bigger-cards-list">
+        <!-- bigger card list -->
+        <ul class="d-flex flex-wrap text-center gap-4 bigger-cards-list">
           <li>
-            <div class="card p-4" style="width: 17em;">
+            <div class="card p-4">
               <div class="d-flex justify-content-center align-items-center column-gap-2">
                 <img src="resources/images/icon-facebook.svg" alt="facebook icon">
                 <p>@nathanf</p>
@@ -72,7 +75,7 @@
             </div>
           </li>
           <li>
-            <div class="card p-4" style="width: 17em;">
+            <div class="card p-4">
               <div class="d-flex justify-content-center align-items-center column-gap-2">
                 <img src="resources/images/icon-twitter.svg" alt="facebook icon">
                 <p>@nathanf</p>
@@ -87,7 +90,7 @@
             </div>
           </li>
           <li>
-            <div class="card p-4" style="width: 17em;">
+            <div class="card p-4">
               <div class="d-flex justify-content-center align-items-center column-gap-2">
                 <img src="resources/images/icon-instagram.svg" alt="facebook icon">
                 <p>@realnathanf</p>
@@ -102,7 +105,7 @@
             </div>
           </li>
           <li>
-            <div class="card p-4" style="width: 17em;">
+            <div class="card p-4">
               <div class="d-flex justify-content-center align-items-center column-gap-2">
                 <img src="resources/images/icon-youtube.svg" alt="facebook icon">
                 <p>Nathan F.</p>
@@ -117,17 +120,117 @@
             </div>
           </li>
         </ul>
+        <!-- end bigger card list -->
+        <!-- overview card list-->
+        <h2 class="mt-5 mb-3">Overview - Today</h2>
+        <ul class="d-flex flex-wrap gap-4 overview-card">
+          <li>
+            <div class="card p-4">
+              <div class="d-flex justify-content-between mb-4">
+                <p>Page Views</p>
+                <img src="resources/images/icon-facebook.svg" alt="facebook logo">
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <p>87</p>
+                <p><img src="resources/images/icon-up.svg" alt="  icon up"> 3%</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card p-4">
+              <div class="d-flex justify-content-between mb-4">
+                <p>Likes</p>
+                <img src="resources/images/icon-facebook.svg" alt="facebook logo">
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <p>52</p>
+                <p><img src="resources/images/icon-down.svg" alt="  icon up"> 2%</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card p-4">
+              <div class="d-flex justify-content-between mb-4">
+                <p>Likes</p>
+                <img src="resources/images/icon-instagram.svg" alt="facebook logo">
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <p>5462</p>
+                <p><img src="resources/images/icon-up.svg" alt="  icon up"> 2257%</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card p-4">
+              <div class="d-flex justify-content-between mb-4">
+                <p>Profile Views</p>
+                <img src="resources/images/icon-instagram.svg" alt="facebook logo">
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <p>52k</p>
+                <p><img src="resources/images/icon-up.svg" alt="  icon up"> 1375%</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card p-4">
+              <div class="d-flex justify-content-between mb-4">
+                <p>Retweets</p>
+                <img src="resources/images/icon-twitter.svg" alt="facebook logo">
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <p>117</p>
+                <p><img src="resources/images/icon-up.svg" alt="  icon up"> 303%</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card p-4">
+              <div class="d-flex justify-content-between mb-4">
+                <p>Likes</p>
+                <img src="resources/images/icon-twitter.svg" alt="facebook logo">
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <p>507</p>
+                <p><img src="resources/images/icon-up.svg" alt="  icon up"> 553%</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card p-4">
+              <div class="d-flex justify-content-between mb-4">
+                <p>Likes</p>
+                <img src="resources/images/icon-youtube.svg" alt="youtube logo">
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <p>107</p>
+                <p><img src="resources/images/icon-down.svg" alt="  icon down"> 19%</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card p-4">
+              <div class="d-flex justify-content-between mb-4">
+                <p>Total Views</p>
+                <img src="resources/images/icon-youtube.svg" alt="youtube logo">
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <p>1407</p>
+                <p><img src="resources/images/icon-down.svg" alt="  icon down"> 12%</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <!-- end overview card list -->
       </div>
-      <!-- end bigger card list -->
-      <!-- overview card list-->
-      <!-- end overview card list -->
+
     </main>
 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Rachmat Risky Saputra</a>.
     </div>
 
     <script
@@ -135,5 +238,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="resources/js/script.js"></script>
   </body>
 </html>
