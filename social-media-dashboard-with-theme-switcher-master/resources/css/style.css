@@ -139,8 +139,8 @@ ul {
   font-weight: bold;
 }
 
-.bigger-cards-list li .statistics-red {
-  color: var(--bright-red-clr);
+.statistics-red {
+  color: var(--bright-red-clr) !important;
 }
 /* ===== END - BIGGER CARD ===== */
 
@@ -169,5 +169,6 @@ h2 {
 }
 .overview-card .card div:last-child p:last-child {
   color: var(--lime-green-clr);
+  font-weight: bold;
 }
 /* ===== END - OVERVIEW CARD ===== */
