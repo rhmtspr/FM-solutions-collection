@@ -54,9 +54,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Bootstrap 5
 - Javascript
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
@@ -93,7 +90,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Kevin Powell's YT video titled "Useful & Responsive Layouts, no Media Queries required"](https://www.youtube.com/watch?v=p3_xN2Zp1TY) - 
-- [Ananya Neogi's Post on dev.to](https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8)
+- [Ananya Neogi's Post on dev.to](https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8) - the article really helped to create dark theme switch functionality
 - [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
