@@ -45,6 +45,10 @@ ul {
 }
 
 /* ===== HEADER ===== */
+.header h1 {
+  font-size: 2rem;
+}
+
 .header h1,
 .header p,
 .header label {
@@ -59,12 +63,12 @@ ul {
 /* ===== TOGGLE SWITCH ===== */
 .toggle {
   cursor: pointer;
-  display: inline-block;
+  width: 100%;
 }
 
 .toggle-switch {
   display: inline-block;
-  background: #ccc;
+  background: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
   border-radius: 16px;
   width: 58px;
   height: 32px;
@@ -92,7 +96,7 @@ ul {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
 }
 .toggle-checkbox:checked + .toggle-switch {
-  background: linear-gradient(90deg, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+  background: hsl(230, 22%, 74%);
 }
 
 .toggle-checkbox:checked + .toggle-switch:before {
@@ -105,9 +109,7 @@ ul {
 }
 
 .toggle-label {
-  margin-left: 5px;
   position: relative;
-  top: 2px;
 }
 /* ===== END - TOGGLE SWITCH ===== */
 /* ===== END - HEADER ===== */
@@ -147,6 +149,7 @@ ul {
 
 /* ===== OVERVIEW CARD ===== */
 h2 {
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -162,6 +165,7 @@ h2 {
 
 .overview-card .card div:first-child p {
   color: var(--text-clr);
+  font-weight: bold;
 }
 
 .overview-card .card div:last-child p:first-child {
@@ -173,3 +177,9 @@ h2 {
   font-weight: bold;
 }
 /* ===== END - OVERVIEW CARD ===== */
+
+@media (min-width: 768px) {
+  .toggle {
+    width: auto;
+  }
+}
